@@ -1,5 +1,4 @@
-# crab85193.github.io
-Hello, I'm CrabAnderson.
+# Hello, I'm CrabAnderson.
 
 [My Blog](https://www.crab85193.me/blog/)
 
