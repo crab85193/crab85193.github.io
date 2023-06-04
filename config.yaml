@@ -183,7 +183,8 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "システムエンジニア & プログラマ"
+      - job: "システムエンジニア"
+        title: 'Gestalt LLC.'
         company: "合同会社 ゲシュタルト"
         # companyUrl: "https://example.com"
         date: "May 2023 - present"
@@ -204,6 +205,7 @@ params:
           - 高校生へのプログラミングにおける基礎知識の指導
 
       - job: "外部講師 & 外部顧問"
+        title: "Mirai Engineer H.S."
         company: "沖縄県立美来工科高等学校"
         companyUrl: "http://www.mirai-th.open.ed.jp/"
         date: "Apr 2023 - present"
@@ -225,6 +227,7 @@ params:
           - チーム開発手法の指導
 
       - job: "広報"
+        title: "LEAPDAY"
         company: "LEAPDAY実行委員会"
         companyUrl: "https://www.leapday.jp/"
         date: "Sep 2022 - present"
@@ -244,6 +247,7 @@ params:
           - イベント当日の現場指揮を担当
 
       - job: "Research Assistant"
+        title: "OIST"
         company: "OIST EQuIP Unit"
         companyUrl: "https://groups.oist.jp/equip"
         date: "Jul 2022 - present"
@@ -263,6 +267,7 @@ params:
           - Unitの資産管理アプリケーションの開発
 
       - job: "アミューズメント技術"
+        title: "Round 1"
         company: "ラウンドワンスタジアム"
         companyUrl: "https://www.round1.co.jp/shop/tenpo/okinawa-ginowan.html"
         date: "Jul 2021 - Mar 2023"
