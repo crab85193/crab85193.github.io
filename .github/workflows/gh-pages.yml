@@ -1,0 +1,36 @@
+name: gh-pages
+
+on:
+  push:
+    branches:
+      - main  # Set a branch to deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build
+        # working-directory: docs # docs以下にsiteをおいた場合
+        run: hugo --minify
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+            ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+            base_branch: main
+            branch: gh-pages
+            folder: public
+            clean: true
+            single-commit: true

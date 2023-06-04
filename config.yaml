@@ -1,0 +1,457 @@
+baseURL: "https://crab85193.github.io/"
+languageCode: "ja-JP"
+title: "Crab Anderson"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Menus:
+  # main:
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Crab Anderson"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    brandLogo: "/fav.png" # Logo for the brand | default is the favicon variable
+    showBrandLogo: true # Show brand logo in nav bar | default is true
+    brandName: "Crab Anderson" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    # searchPlaceholder: "Search"
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Crab Anderson!"
+    subtitle: ""
+    content: "I Love Programming and System Development!"
+    image: /images/icon.jpg
+    bottomImage:
+      enable: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-twitter
+          url: https://twitter.com/crab85193
+        - icon: fab fa-instagram
+          url: https://www.instagram.com/crab85193/
+        - icon: fab fa-facebook-square
+          url: https://www.facebook.com/rion.kamimur 
+        - icon: fab fa-github
+          url: https://github.com/crab85193
+        - icon: fas fa-blog
+          url: https://crab85193.github.io/blog/
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/icon.jpg"
+    content: |
+      2003年生まれ。幼い頃からPCや機械が好きで、中学卒業後は工業高校へ入学。
+      
+      卒業後、就職を考えるも、自分の能力不足を感じ、さらに専門的な技術を身につけるため大学へ進学。
+
+      大学では情報工学系学部で機械学習やコンピュータ工学を勉強中。
+
+      大学２年次に、友人からの紹介で、沖縄科学技術大学院大学で研究助手のバイトを始める。
+
+      また、母校からの勧誘もあり、2023年4月から母校である美来工科高等学校で、ETロボコンを教える外部講師を始める。
+
+      2023年5月に合同会社ゲシュタルトのエンジニアとして入社。webアプリケーションの開発を行いながら、高校生向けのプログラミング講師を務める。
+
+    skills:
+      enable: true
+      title: "TECHNICAL SKILLS"
+      mainskills:
+        enable: true
+        title: "Main"
+        items:
+          - "Python"
+          - "Selenium"
+          - "Django"
+          - "PyQt5"
+          - "MySQL"
+      subskills:
+        enable: true
+        title: "Sub"
+        items:
+          - "HTML"
+          - "CSS"
+          - "JavaScript"
+          - "PHP"
+          - "Bootstrap5"
+          - "jQuery"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "システムエンジニア & プログラマ"
+        company: "合同会社 ゲシュタルト"
+        # companyUrl: "https://example.com"
+        date: "May 2023 - present"
+        info:
+          enable: true
+          # content: 
+        featuredLink:
+          enable: false
+          # name: "View the project"
+          # url: "https://example.com"
+        content: |
+          2023年から勤務。
+
+          主にwebアプリケーションの開発を行う。また、高校生向けのプログラミング講師も務める。
+
+          - webアプリケーションの設計・開発
+          - 社内のIT資産管理
+          - 高校生へのプログラミングにおける基礎知識の指導
+
+      - job: "外部講師 & 外部顧問"
+        company: "沖縄県立美来工科高等学校"
+        companyUrl: "http://www.mirai-th.open.ed.jp/"
+        date: "Apr 2023 - present"
+        info:
+          enable: true
+        featuredLink:
+          enable: false
+          # url: "https://example.com"
+        content: |
+          2023年度から正式に活動開始。
+
+          ICT部の顧問として、ETロボコンに関するプログラミングの基礎知識やモデル図の作成方法、チーム開発の手法を指導する。
+
+          また、必要があれば授業時間中の指導も行う。
+
+          - C/C++のプログラミング基礎の指導
+          - EV3APIを使用した開発方法の指導
+          - モデル図の作成方法の指導
+          - チーム開発手法の指導
+
+      - job: "広報"
+        company: "LEAPDAY実行委員会"
+        companyUrl: "https://www.leapday.jp/"
+        date: "Sep 2022 - present"
+        info:
+          enable: true
+        featuredLink:
+          enable: true
+          name: "View the Twitter"
+          url: "https://twitter.com/leapday_okinawa"
+        content: |
+          2022年から活動開始。
+
+          主にTwitterでの広報や、スポンサー企業様、各教育機関様へのポスター配布を行う。
+
+          - [Twitter](https://twitter.com/leapday_okinawa)での広報活動
+          - スポンサー企業様、各教育機関様へのポスター配布
+          - イベント当日の現場指揮を担当
+
+      - job: "Research Assistant"
+        company: "OIST EQuIP Unit"
+        companyUrl: "https://groups.oist.jp/equip"
+        date: "Jul 2022 - present"
+        featuredLink:
+          enable: true
+          name: "View the Projects"
+          url: "https://github.com/OIST-EQuIP"
+        info:
+          enable: true
+        content: |
+          2022年から勤務。
+
+          主に実験に使用するアプリケーションや、所属するUnitで使用するアプリケーションの開発を行う。
+
+          - [NI6212用アプリケーションの開発](https://github.com/OIST-EQuIP/NI6212_interface)
+          - [レーザー実験で使用するアプリケーションの開発](https://github.com/OIST-EQuIP/NI6212_Scan_Amplitude)
+          - Unitの資産管理アプリケーションの開発
+
+      - job: "アミューズメント技術"
+        company: "ラウンドワンスタジアム"
+        companyUrl: "https://www.round1.co.jp/shop/tenpo/okinawa-ginowan.html"
+        date: "Jul 2021 - Mar 2023"
+        content: |
+          ラウンドワンスタジアム 沖縄・宜野湾店に勤務。
+
+          主に、アミューズコーナー（ゲームコーナー）の機械の修理・メンテナンス、施設管理を行う。
+          
+          - アミューズコーナーのゲーム機の修理・メンテナンス
+          - カラオケ機器のメンテナンス
+          - 施設の保守・安全管理
+          - 緊急時のお客様対応
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "工学（学士）: 取得中"
+        school:
+          name: "琉球大学"
+          url: "https://www.u-ryukyu.ac.jp/"
+        date: "2021 - present"
+        GPA: "3.65 out of 4.0"
+        content: |
+
+        featuredLink:
+          enable: false
+          # name: "My academic record"
+          # url: "https://example.com"
+
+      - title: "高等学校"
+        school:
+          name: "沖縄県立美来工科高等学校 ITシステム科"
+          url: "http://www.mirai-th.open.ed.jp/"
+        date: "2018 - 2021"
+        GPA: "4.3 out of 5.0"
+        featuredLink:
+          enable: false
+          # url: "https://example.com" 
+
+  # Achievements
+  achievements:
+    enable: true
+    title: "Qualifications & Achievements"
+    items:
+      - title: ITパスポート
+        content: |
+          2019年取得。業務における基礎的なITの知識を身につけた。
+
+        url: https://www3.jitec.ipa.go.jp/JitesCbt/index.html
+      
+      - title: ETロボコン2019 沖縄地区大会 デベロッパー部門 プライマリークラス 総合優勝
+        content: |
+          2019年に参加したETロボコン沖縄地区大会 デベロッパー部門 プライマリークラスにて総合優勝を果たした。
+
+          同年12月、県代表として横浜で行われた全国大会へ出場した。
+
+        url: https://www.etrobo.jp/%e3%80%90%e6%b2%96%e7%b8%84%e5%9c%b0%e5%8c%ba%e3%80%91%e6%b2%96%e7%b8%84%e5%9c%b0%e5%8c%ba%e5%a4%a7%e4%bc%9a%e9%96%8b%e5%82%ac%e3%82%92%e9%96%8b%e5%82%ac%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%ef%bc%889/
+      
+      - title: Cisco CCNA R&S
+        content: |
+          2019年に "Introduction to Networks"、2020年に "Routing and Switching Essentials"を取得。
+
+          ネットワークにおける基礎的に知識や、cisco製品の設定方法やネットワーク構築方法を身につけた。
+        
+        url: https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials
+
+      - title: Cisco Introduction to Cyber Security
+        content: | 
+          2021年取得。
+
+          ネットワークにおけるセキュリティの重要性や外部からの攻撃手法、対策方法について学び、ネットワークセキュリティ対策の基礎を身につけた。
+
+        url: https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity
+
+      - title: 2022 年度 Web×IoT メイカーズチャレンジ PLUS
+        content: |
+          2022年、大学の友人と4人と "チーム ieB2" として参加。
+
+          今年度のテーマが「社会課題を解決」と「沖縄のクルマ社会問題をIoTを用いてDX推進解決」だったため、居眠り運転を検出する車載用システム "眠眠突破" を開発。
+
+        url: https://webiotmakers.github.io/gallery/?location=%E6%B2%96%E7%B8%84&year=2022
+        
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: NI6212 Interface
+        content: NI-DAQmx社が販売しているNI6212用簡易操作GUIアプリケーションを開発。
+        image: https://opengraph.githubassets.com/198216f0c9050fcb10b051cdd9ee9eafee09b0c48daf29089ab5bbd671bd5646/OIST-EQuIP/NI6212_interface
+        # image: https://github.com/OIST-EQuIP/NI6212_interface/raw/main/img/Capture.PNG
+        featured:
+          name: Source Code
+          link: https://github.com/OIST-EQuIP/NI6212_interface
+        badges:
+          - "Python"
+          - "nidaqmx"
+          - "PyQt5"
+          - "pyqtgraph"
+          - "pglive"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/OIST-EQuIP/NI6212_interface
+
+      - title: NI6212 ScanAmplitude
+        content: NI-DAQmx社が販売しているNI6212用操作GUIアプリケーション。主にレーザーを使用した実験を想定して開発を行なった。閾値を設定し、閾値に達するまでアナログ出力を継続し、閾値に達成するとアナログ出力を固定する。
+        image: https://opengraph.githubassets.com/de5e380595fde5b709183ceacc1b195e5d1919d278cfffd4550126f4602de14f/OIST-EQuIP/NI6212_Scan_Amplitude
+        # image: https://github.com/OIST-EQuIP/NI6212_Scan_Amplitude/raw/main/img/title.PNG
+        featured:
+          name: Source Code
+          link: https://github.com/OIST-EQuIP/NI6212_Scan_Amplitude
+        badges:
+          - "Python"
+          - "nidaqmx"
+          - "PyQt5"
+          - "pyqtgraph"
+          - "pglive"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/OIST-EQuIP/NI6212_Scan_Amplitude
+
+      - title: 眠眠突破
+        content: 2022年度 Web×IoT メイカーズチャレンジPLUSにて開発した車載用居眠り検出システム。
+        image: https://opengraph.githubassets.com/119256ee8856ad690ba595d0ad4875880d375ce6f7aa59584fb70dd17b0c28cf/Team-ieB2/SleepBreakthrough
+        featured:
+          name: Source Code
+          link: https://github.com/Team-ieB2/SleepBreakthrough
+        badges:
+          - "Raspberry Pi"
+          - "Python"
+          - "numpy"
+          - "obd"
+          - "opencv"
+          - "ifttt"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Team-ieB2/SleepBreakthrough
+
+  #Contact
+  contact:
+    enable: true
+    title: "Contact"
+    content: お仕事のご依頼やご連絡はこちらまで
+    email: crab85193@gmail.com
+    btnName: Mail me
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false
+      disableFeaturedImage: false
+    socialNetworks:
+      twitter: https://twitter.com/crab85193
+      instagram: https://www.instagram.com/crab85193/
+      facebook: https://www.facebook.com/rion.kamimur
+      github: https://github.com/crab85193
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    readTime:
+      enable: false
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
