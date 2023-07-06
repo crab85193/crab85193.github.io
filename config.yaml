@@ -130,12 +130,17 @@ params:
           url: https://twitter.com/crab85193
         - icon: fab fa-instagram
           url: https://www.instagram.com/crab85193/
+        - icon: fab fa-instagram
+          url: https://www.instagram.com/crab85193/
         - icon: fab fa-facebook-square
           url: https://www.facebook.com/rion.kamimur 
         - icon: fab fa-github
           url: https://github.com/crab85193
         - icon: fas fa-blog
           url: https://crab85193.github.io/blog/
+      customIcons:
+        - icon: /images/threads.png
+          url: "https://www.threads.net/@crab85193"
 
   # About
   about:
