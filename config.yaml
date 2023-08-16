@@ -130,17 +130,12 @@ params:
           url: https://twitter.com/crab85193
         - icon: fab fa-instagram
           url: https://www.instagram.com/crab85193/
-        - icon: fab fa-instagram
-          url: https://www.instagram.com/crab85193/
         - icon: fab fa-facebook-square
           url: https://www.facebook.com/rion.kamimur 
         - icon: fab fa-github
           url: https://github.com/crab85193
         - icon: fas fa-blog
           url: https://crab85193.github.io/blog/
-      customIcons:
-        - icon: /images/threads.png
-          url: "https://www.threads.net/@crab85193"
 
   # About
   about:
@@ -177,30 +172,30 @@ params:
         enable: true
         title: "Sub"
         items:
-          - "HTML"
-          - "CSS"
+          - "HTML/CSS"
           - "JavaScript"
           - "PHP"
           - "Bootstrap5"
           - "jQuery"
+          - "Swift"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "システムエンジニア"
+      - job: "CTO"
         title: 'Gestalt LLC.'
         company: "合同会社 ゲシュタルト"
-        # companyUrl: "https://example.com"
+        companyUrl: "https://gestalt.ryukyu"
         date: "May 2023 - present"
         info:
           enable: true
           # content: 
         featuredLink:
-          enable: false
-          # name: "View the project"
-          # url: "https://example.com"
+          enable: true
+          name: "View the Website"
+          url: "https://gestalt.ryukyu"
         content: |
           2023年から勤務。
 
@@ -218,8 +213,9 @@ params:
         info:
           enable: true
         featuredLink:
-          enable: false
-          # url: "https://example.com"
+          enable: true
+          name: "View the Website"
+          url: "http://www.mirai-th.open.ed.jp/"
         content: |
           2023年度から正式に活動開始。
 
@@ -260,7 +256,7 @@ params:
         featuredLink:
           enable: true
           name: "View the Projects"
-          url: "https://github.com/OIST-EQuIP"
+          url: "https://github.com/OIST-EQuIP-Unit"
         info:
           enable: true
         content: |
