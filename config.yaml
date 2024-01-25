@@ -209,7 +209,7 @@ params:
         title: "Mirai Engineer H.S."
         company: "沖縄県立美来工科高等学校"
         companyUrl: "http://www.mirai-th.open.ed.jp/"
-        date: "Apr 2023 - present"
+        date: "Apr 2023 - Mar 2024"
         info:
           enable: true
         featuredLink:
@@ -232,7 +232,7 @@ params:
         title: "LEAPDAY"
         company: "LEAPDAY実行委員会"
         companyUrl: "https://www.leapday.jp/"
-        date: "Sep 2022 - present"
+        date: "Sep 2022 - Mar 2024"
         info:
           enable: true
         featuredLink:
@@ -353,6 +353,14 @@ params:
           今年度のテーマが「社会課題を解決」と「沖縄のクルマ社会問題をIoTを用いてDX推進解決」だったため、居眠り運転を検出する車載用システム "眠眠突破" を開発。
 
         url: https://webiotmakers.github.io/gallery/?location=%E6%B2%96%E7%B8%84&year=2022
+
+      - title: 2023 年度 enPiT BizSysD 最優秀賞
+        content: |
+          2023年度、enPit BizSysDに大学の友人たちと参加。
+
+          チーム「株式会社カルテット」として、電話予約の代理サービス「Tely」を開発し、最優秀賞を取得。
+
+        url: https://bizsysd.enpit.jp/
         
 
   # projects
@@ -360,39 +368,39 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: NI6212 Interface
-        content: NI-DAQmx社が販売しているNI6212用簡易操作GUIアプリケーションを開発。
-        image: https://opengraph.githubassets.com/198216f0c9050fcb10b051cdd9ee9eafee09b0c48daf29089ab5bbd671bd5646/OIST-EQuIP/NI6212_interface
-        # image: https://github.com/OIST-EQuIP/NI6212_interface/raw/main/img/Capture.PNG
-        featured:
-          name: Source Code
-          link: https://github.com/OIST-EQuIP/NI6212_interface
-        badges:
-          - "Python"
-          - "nidaqmx"
-          - "PyQt5"
-          - "pyqtgraph"
-          - "pglive"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/OIST-EQuIP/NI6212_interface
+      # - title: NI6212 Interface
+      #   content: NI-DAQmx社が販売しているNI6212用簡易操作GUIアプリケーションを開発。
+      #   image: https://opengraph.githubassets.com/198216f0c9050fcb10b051cdd9ee9eafee09b0c48daf29089ab5bbd671bd5646/OIST-EQuIP/NI6212_interface
+      #   # image: https://github.com/OIST-EQuIP/NI6212_interface/raw/main/img/Capture.PNG
+      #   featured:
+      #     name: Source Code
+      #     link: https://github.com/OIST-EQuIP/NI6212_interface
+      #   badges:
+      #     - "Python"
+      #     - "nidaqmx"
+      #     - "PyQt5"
+      #     - "pyqtgraph"
+      #     - "pglive"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/OIST-EQuIP/NI6212_interface
 
-      - title: NI6212 ScanAmplitude
-        content: NI-DAQmx社が販売しているNI6212用操作GUIアプリケーション。主にレーザーを使用した実験を想定して開発を行なった。閾値を設定し、閾値に達するまでアナログ出力を継続し、閾値に達成するとアナログ出力を固定する。
-        image: https://opengraph.githubassets.com/de5e380595fde5b709183ceacc1b195e5d1919d278cfffd4550126f4602de14f/OIST-EQuIP/NI6212_Scan_Amplitude
-        # image: https://github.com/OIST-EQuIP/NI6212_Scan_Amplitude/raw/main/img/title.PNG
-        featured:
-          name: Source Code
-          link: https://github.com/OIST-EQuIP/NI6212_Scan_Amplitude
-        badges:
-          - "Python"
-          - "nidaqmx"
-          - "PyQt5"
-          - "pyqtgraph"
-          - "pglive"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/OIST-EQuIP/NI6212_Scan_Amplitude
+      # - title: NI6212 ScanAmplitude
+      #   content: NI-DAQmx社が販売しているNI6212用操作GUIアプリケーション。主にレーザーを使用した実験を想定して開発を行なった。閾値を設定し、閾値に達するまでアナログ出力を継続し、閾値に達成するとアナログ出力を固定する。
+      #   image: https://opengraph.githubassets.com/de5e380595fde5b709183ceacc1b195e5d1919d278cfffd4550126f4602de14f/OIST-EQuIP/NI6212_Scan_Amplitude
+      #   # image: https://github.com/OIST-EQuIP/NI6212_Scan_Amplitude/raw/main/img/title.PNG
+      #   featured:
+      #     name: Source Code
+      #     link: https://github.com/OIST-EQuIP/NI6212_Scan_Amplitude
+      #   badges:
+      #     - "Python"
+      #     - "nidaqmx"
+      #     - "PyQt5"
+      #     - "pyqtgraph"
+      #     - "pglive"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/OIST-EQuIP/NI6212_Scan_Amplitude
 
       - title: 眠眠突破
         content: 2022年度 Web×IoT メイカーズチャレンジPLUSにて開発した車載用居眠り検出システム。
@@ -402,7 +410,7 @@ params:
           link: https://github.com/Team-ieB2/SleepBreakthrough
         badges:
           - "Raspberry Pi"
-          - "Python"
+          - "Python3"
           - "numpy"
           - "obd"
           - "opencv"
@@ -410,6 +418,68 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/Team-ieB2/SleepBreakthrough
+
+      - title: 就活情報管理アプリ
+        content: 2023年度、大学の講義の一環で作成した就活情報管理アプリ。
+        image: https://github.com/crab85193/job-hunting-support/blob/main/job-hunting-support/Assets.xcassets/AppIcon.appiconset/256.png?raw=true
+        featured:
+          name: Source Code
+          link: https://github.com/crab85193/job-hunting-support
+        badges:
+          - "iOS"
+          - "Swift"
+          - "Swift UI"
+          - "RealmSwift"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/crab85193/job-hunting-support
+
+      - title: Tely
+        content: 2023年度 enPiT BizSysDにて開発した電話予約の代理サービス「Tely」。
+        image: https://github.com/crab85193/Tely/blob/main/static/product_info/img/Tely_logo_3.png?raw=true
+        featured:
+          name: View Web Site
+          link: https://tely.st.ie.u-ryukyu.ac.jp/
+        badges:
+          - "Python3"
+          - "Django"
+          - "Docker"
+          - "Twilio"
+          - "Google Place API"
+          - "Sentry"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/crab85193/Tely
+
+      - title: Tely - 通話監視システム
+        content: 2023年度 enPiT BizSysDにて開発した、Telyで使用する通話監視システム。
+        image: https://github.com/crab85193/Tely/blob/main/static/product_info/img/Tely_logo_3.png?raw=true
+        featured:
+          name: Source Code
+          link: https://github.com/crab85193/twilio-monitor
+        badges:
+          - "Python3"
+          - "Docker"
+          - "Twilio"
+          - "Sentry"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/crab85193/twilio-monitor
+
+      - title: Tely - 店舗情報管理システム
+        content: 2023年度 enPiT BizSysDにて開発した、Telyで使用する店舗情報管理システム。
+        image: https://github.com/crab85193/Tely/blob/main/static/product_info/img/Tely_logo_3.png?raw=true
+        featured:
+          name: Source Code
+          link: https://github.com/crab85193/tely-store-manager
+        badges:
+          - "Python3"
+          - "Docker"
+          - "Google Place API"
+          - "Sentry"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/crab85193/tely-store-manager
 
   #Contact
   contact:
