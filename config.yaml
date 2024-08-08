@@ -1,4 +1,4 @@
-baseURL: "https://crab-anderson.tech"
+baseURL: "https://crab-anderson.com"
 languageCode: "ja-JP"
 title: "Hello! I'm CrabAnderson!!"
 theme: hugo-profile
@@ -205,6 +205,26 @@ params:
           - 社内のIT資産管理
           - 高校生へプログラミングにおける基礎知識の指導
 
+      - job: "Research Assistant"
+        title: "OIST"
+        company: "OIST EQuIP Unit"
+        companyUrl: "https://groups.oist.jp/equip"
+        date: "Jul 2022 - present"
+        featuredLink:
+          enable: true
+          name: "View the Projects"
+          url: "https://github.com/OIST-EQuIP-Unit"
+        info:
+          enable: true
+        content: |
+          2022年から勤務。
+
+          主に実験に使用するアプリケーションや、所属するUnitで使用するアプリケーションの開発を行う。
+
+          - [NI6212用アプリケーションの開発](https://github.com/OIST-EQuIP/NI6212_interface)
+          - [レーザー実験で使用するアプリケーションの開発](https://github.com/OIST-EQuIP/NI6212_Scan_Amplitude)
+          - Unitの資産管理アプリケーションの開発
+
       - job: "外部講師 & 外部顧問"
         title: "Mirai Engineer H.S."
         company: "沖縄県立美来工科高等学校"
@@ -247,26 +267,6 @@ params:
           - [Twitter](https://twitter.com/leapday_okinawa)での広報活動
           - スポンサー企業様、各教育機関様へのポスター配布
           - イベント当日の現場指揮を担当
-
-      - job: "Research Assistant"
-        title: "OIST"
-        company: "OIST EQuIP Unit"
-        companyUrl: "https://groups.oist.jp/equip"
-        date: "Jul 2022 - present"
-        featuredLink:
-          enable: true
-          name: "View the Projects"
-          url: "https://github.com/OIST-EQuIP-Unit"
-        info:
-          enable: true
-        content: |
-          2022年から勤務。
-
-          主に実験に使用するアプリケーションや、所属するUnitで使用するアプリケーションの開発を行う。
-
-          - [NI6212用アプリケーションの開発](https://github.com/OIST-EQuIP/NI6212_interface)
-          - [レーザー実験で使用するアプリケーションの開発](https://github.com/OIST-EQuIP/NI6212_Scan_Amplitude)
-          - Unitの資産管理アプリケーションの開発
 
       - job: "アミューズメント技術"
         title: "Round 1"
@@ -501,11 +501,11 @@ params:
       title: Recent Posts
       enable: false
       disableFeaturedImage: false
-    socialNetworks:
-      twitter: https://twitter.com/crab85193
-      instagram: https://www.instagram.com/crab85193/
-      facebook: https://www.facebook.com/rion.kamimur
-      github: https://github.com/crab85193
+    # socialNetworks:
+    #   twitter: https://twitter.com/crab85193
+    #   instagram: https://www.instagram.com/crab85193/
+    #   facebook: https://www.facebook.com/rion.kamimur
+    #   github: https://github.com/crab85193
 
   # List pages like blogs and posts
   listPages:
