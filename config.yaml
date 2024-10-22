@@ -136,6 +136,8 @@ params:
           url: https://github.com/crab85193
         - icon: fas fa-blog
           url: https://crab85193.github.io/blog/
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/rion-kamimura/
 
   # About
   about:
@@ -143,18 +145,19 @@ params:
     title: "About Me"
     image: "/images/icon.jpg"
     content: |
-      2003年生まれ。幼い頃からPCや機械が好きで、中学卒業後は工業高校へ入学。
-      
-      高校在学中は、卒業してすぐに就職することを考えるも、自分の能力不足を感じ、さらに専門的な技術を身につけるため大学へ進学。
+      2003年生まれ。幼少期からPCや機械に興味を持ち、中学卒業後は工業高校に進学。
 
-      大学では情報工学系学部にて機械学習やコンピュータ工学を勉強中。
+      高校在学中、卒業後すぐに就職を考えるも、さらなるスキルの向上が必要だと感じ、専門知識を深めるために大学へ進学を決意。
 
-      大学２年次では、友人からの紹介で、沖縄科学技術大学院大学で研究助手のバイトを始める。
+      大学では情報工学を専攻し、機械学習やコンピュータ工学を学んでいる。
 
-      2023年4月、母校からの勧誘もあり、美来工科高等学校でICT部の外部顧問としてETロボコンの指導を始める。
+      大学2年生のとき、友人の紹介で沖縄科学技術大学院大学（OIST）にて研究助手としてアルバイトを開始。
 
-      2023年5月、幼なじみからの紹介で、合同会社ゲシュタルトのエンジニアとして入社。
-      webアプリケーションの開発を行いながら、高校生向けのプログラミング講師を務める。
+      2023年4月には、母校である美来工科高等学校からの依頼でICT部の外部顧問となり、ETロボコンの指導を行うようになる。
+
+      同年5月、幼なじみの紹介で合同会社ゲシュタルトにエンジニアとして入社し、沖縄県内の中小企業向けにWebアプリケーションやシステムの開発を担当。
+
+      2023年7月にゲシュタルトのCTOに就任し、2024年7月には業務執行役員も兼任。
 
     skills:
       enable: true
@@ -166,7 +169,7 @@ params:
           - "Python"
           - "Selenium"
           - "Django"
-          - "PyQt5"
+          - "PyQt5/PyQt6"
           - "MySQL"
       subskills:
         enable: true
@@ -178,13 +181,16 @@ params:
           - "Bootstrap5"
           - "jQuery"
           - "Swift"
+          - "Google Apps Script"
+          - "C/C++"
+          - "UNIX"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "CTO"
+      - job: "業務執行役員 兼 CTO"
         title: 'Gestalt LLC.'
         company: "合同会社 ゲシュタルト"
         companyUrl: "https://gestalt.ryukyu"
@@ -197,13 +203,14 @@ params:
           name: "View the Website"
           url: "https://gestalt.ryukyu"
         content: |
-          2023年から勤務。
-
-          主にwebアプリケーションの開発を行う。また、高校生向けのプログラミング講師も務める。
-
-          - webアプリケーションの設計・開発
-          - 社内のIT資産管理
-          - 高校生へプログラミングにおける基礎知識の指導
+          2023年から勤務を開始し、主にWeb開発やアプリ開発を担当。
+          
+          業務内容は以下の通り:
+          
+          - Webアプリケーションの設計・開発
+          - iOSおよびAndroid向けアプリケーションの設計・開発
+          - 社内IT資産の管理
+          - その他、企業の要件に応じたシステム開発
 
       - job: "Research Assistant"
         title: "OIST"
