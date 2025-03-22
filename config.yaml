@@ -12,7 +12,9 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+pagination:
+  pagerSize: 3
+
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 googleAnalytics: G-T8BGTWH17B
@@ -23,34 +25,34 @@ markup:
       unsafe: true
 
 # Menus:
-  # main:
-    # - identifier: blog
-    #   name: Blog
-    #   title: Blog posts
-    #   url: /blogs
-    #   weight: 1
-    # - identifier: gallery
-    #   name: Gallery
-    #   title: Blog posts
-    #   url: /gallery
-    #   weight: 2
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
+# main:
+# - identifier: blog
+#   name: Blog
+#   title: Blog posts
+#   url: /blogs
+#   weight: 1
+# - identifier: gallery
+#   name: Gallery
+#   title: Blog posts
+#   url: /gallery
+#   weight: 2
+#Dropdown menu
+# - identifier: dropdown
+#   title: Example dropdown menu
+#   name: Dropdown
+#   weight: 3
+# - identifier: dropdown1
+#   title: example dropdown 1
+#   name: example 1
+#   url: /#
+#   parent: dropdown
+#   weight: 1
+# - identifier: dropdown2
+#   title: example dropdown 2
+#   name: example 2
+#   url: /#
+#   parent: dropdown
+#   weight: 2
 
 params:
   title: "Hello! I'm CrabAnderson!!"
@@ -131,7 +133,7 @@ params:
         - icon: fab fa-instagram
           url: https://www.instagram.com/crab85193/
         - icon: fab fa-facebook-square
-          url: https://www.facebook.com/rion.kamimur 
+          url: https://www.facebook.com/rion.kamimur
         - icon: fab fa-github
           url: https://github.com/crab85193
         - icon: fas fa-blog
@@ -151,13 +153,21 @@ params:
 
       大学では情報工学を専攻し、機械学習やコンピュータ工学を学んでいる。
 
-      大学2年生のとき、友人の紹介で沖縄科学技術大学院大学（OIST）にて研究助手としてアルバイトを開始。
+      大学2年生のとき（2022年7月）、友人の紹介で沖縄科学技術大学院大学（OIST）にて研究助手としてアルバイトを開始。
 
       2023年4月には、母校である美来工科高等学校からの依頼でICT部の外部顧問となり、ETロボコンの指導を行うようになる。
 
       同年5月、幼なじみの紹介で合同会社ゲシュタルトにエンジニアとして入社し、沖縄県内の中小企業向けにWebアプリケーションやシステムの開発を担当。
 
       2023年7月にゲシュタルトのCTOに就任し、2024年7月には業務執行役員も兼任。
+
+      2023年10月、大学の研究室「Body Sharing Lab」に配属。卒業研究としてウェアラブル複合エネルギーハーベスティングに関する研究に取り組む。
+
+      2024年11月、合同会社ゲシュタルトを退職。
+
+      2025年3月、OISTでの業務を終了。
+
+      2025年4月から東京の企業でバックエンドエンジニアとして新たなキャリアをスタート。
 
     skills:
       enable: true
@@ -191,22 +201,22 @@ params:
     # title: "Custom Name"
     items:
       - job: "業務執行役員 兼 CTO"
-        title: 'Gestalt LLC.'
+        title: "Gestalt LLC."
         company: "合同会社 ゲシュタルト"
         companyUrl: "https://gestalt.ryukyu"
-        date: "May 2023 - present"
+        date: "May 2023 - Nov 2024"
         info:
           enable: true
-          # content: 
+          # content:
         featuredLink:
           enable: true
           name: "View the Website"
           url: "https://gestalt.ryukyu"
         content: |
           2023年から勤務を開始し、主にWeb開発やアプリ開発を担当。
-          
+
           業務内容は以下の通り:
-          
+
           - Webアプリケーションの設計・開発
           - iOSおよびAndroid向けアプリケーションの設計・開発
           - 社内IT資産の管理
@@ -214,13 +224,13 @@ params:
 
       - job: "Research Assistant"
         title: "OIST"
-        company: "OIST EQuIP Unit"
-        companyUrl: "https://groups.oist.jp/equip"
-        date: "Jul 2022 - present"
+        company: "OIST Experimental Quantum Information Physics Unit"
+        companyUrl: "https://www.oist.jp/ja/research/research-units/equip"
+        date: "Jul 2022 - Mar 2025"
         featuredLink:
           enable: true
-          name: "View the Projects"
-          url: "https://github.com/OIST-EQuIP-Unit"
+          name: "View the Website"
+          url: "https://www.oist.jp/ja/research/research-units/equip"
         info:
           enable: true
         content: |
@@ -284,7 +294,7 @@ params:
           2021年7月から、ラウンドワンスタジアム 沖縄・宜野湾店に勤務。
 
           主に、アミューズコーナー（ゲームコーナー）の機械の修理・メンテナンス、施設管理を行う。
-          
+
           - アミューズコーナーのゲーム機の修理・メンテナンス
           - カラオケ機器のメンテナンス
           - 施設の保守・安全管理
@@ -295,12 +305,12 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "工学（学士）: 取得中"
+      - title: "工学（学士）"
         school:
           name: "琉球大学"
           url: "https://www.u-ryukyu.ac.jp/"
-        date: "2021 - present"
-        GPA: "3.65 out of 4.0"
+        date: "2021 - 2025"
+        GPA: "3.46 out of 4.0"
         content: |
 
         featuredLink:
@@ -316,7 +326,7 @@ params:
         GPA: "4.3 out of 5.0"
         featuredLink:
           enable: false
-          # url: "https://example.com" 
+          # url: "https://example.com"
 
   # Achievements
   achievements:
@@ -328,7 +338,7 @@ params:
           2019年取得。業務における基礎的なITの知識を身につけた。
 
         url: https://www3.jitec.ipa.go.jp/JitesCbt/index.html
-      
+
       - title: ETロボコン2019 沖縄地区大会 デベロッパー部門 プライマリークラス 総合優勝
         content: |
           2019年に参加したETロボコン沖縄地区大会 デベロッパー部門 プライマリークラスにて総合優勝を果たした。
@@ -336,17 +346,17 @@ params:
           同年12月、県代表として横浜で行われた全国大会へ出場した。
 
         url: https://www.etrobo.jp/%e3%80%90%e6%b2%96%e7%b8%84%e5%9c%b0%e5%8c%ba%e3%80%91%e6%b2%96%e7%b8%84%e5%9c%b0%e5%8c%ba%e5%a4%a7%e4%bc%9a%e9%96%8b%e5%82%ac%e3%82%92%e9%96%8b%e5%82%ac%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%ef%bc%889/
-      
+
       - title: Cisco CCNA R&S
         content: |
           2019年に "Introduction to Networks"、2020年に "Routing and Switching Essentials"を取得。
 
           ネットワークにおける基礎的に知識や、cisco製品の設定方法やネットワーク構築方法を身につけた。
-        
+
         url: https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials
 
       - title: Cisco Introduction to Cyber Security
-        content: | 
+        content: |
           2021年取得。
 
           ネットワークにおけるセキュリティの重要性や外部からの攻撃手法、対策方法について学び、ネットワークセキュリティ対策の基礎を身につけた。
@@ -368,7 +378,6 @@ params:
           チーム「株式会社カルテット」として、電話予約の代理サービス「Tely」を開発し、最優秀賞を取得。
 
         url: https://bizsysd.enpit.jp/
-        
 
   # projects
   projects:

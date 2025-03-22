@@ -4,7 +4,7 @@
     <title>Blogs on Hello! I&#39;m CrabAnderson!!</title>
     <link>http://localhost:1313/blogs/</link>
     <description>Recent content in Blogs on Hello! I&#39;m CrabAnderson!!</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo</generator>
     <language>ja-JP</language>
     <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
